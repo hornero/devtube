@@ -1,0 +1,27 @@
+{
+  "name": "devtube",
+  "version": "1.0.0",
+  "description": "[![Stories in Ready](https://badge.waffle.io/hornero/devtube.png?label=ready&title=Ready)](https://waffle.io/hornero/devtube)\r # devtube\r Catalogo de videos de Youtube referentes al desarrollo de aplicaciones.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hornero/devtube.git"
+  },
+  "keywords": [
+    "youtube",
+    "dev"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hornero/devtube/issues"
+  },
+  "homepage": "https://github.com/hornero/devtube#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.13.4"
+  }
+}
