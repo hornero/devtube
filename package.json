@@ -4,7 +4,8 @@
   "description": "[![Stories in Ready](https://badge.waffle.io/hornero/devtube.png?label=ready&title=Ready)](https://waffle.io/hornero/devtube)\r # devtube\r Catalogo de videos de Youtube referentes al desarrollo de aplicaciones.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",

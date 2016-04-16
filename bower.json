@@ -1,0 +1,23 @@
+{
+  "name": "devtube",
+  "description": "",
+  "main": "server.js",
+  "license": "GPL-3.0",
+  "keywords": [
+    "youtube",
+    "dev"
+  ],
+  "homepage": "https://github.com/hornero/devtube",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6"
+  }
+}
