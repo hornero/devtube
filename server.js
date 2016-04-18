@@ -1,6 +1,7 @@
 var express = require('express'),
     app = express();
-    
+
+// Sirve los contenidos estaticos    
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
