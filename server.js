@@ -1,5 +1,6 @@
 var express = require('express'),
-    app = express();
+    app     = express(),
+    port    = process.env.PORT || 3000;
 
 // Sirve los contenidos estaticos    
 app.use(express.static('public'));
@@ -9,6 +10,6 @@ app.get('/', function (req, res) {
 });
 
 // Incia el web server.
-app.listen(3000, function () {
-    console.log('server is running in port 3000');
+app.listen(port, function () {
+    console.log('server is running in port ' + port);
 });
